@@ -91,6 +91,7 @@ int main()
 
     test_projection();
 
+    std::cout << &Product::name << '\n';
     return 0;
 }
 
